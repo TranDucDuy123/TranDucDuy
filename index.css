@@ -31,7 +31,7 @@ body {
     }
 
     100% {
-        transform: rotateX(-30deg) rotateY(360deg);
+        transform: rotateX(-30deg) rotateY(-360deg);
     }
 }
 
@@ -65,6 +65,13 @@ body {
     height: 300px;
     background: #222;
     transform: rotateX(90deg) translateZ(150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top i {
+    font-size: 200px;
 }
 
 .top::before {
@@ -75,7 +82,7 @@ body {
     width: 300px;
     height: 300px;
     background: #0f0;
-    transform: translateZ(-380px);
+    transform: translateZ(-400px);
     filter: blur(20px);
     box-shadow: 0 0 120px rgb(0, 255, 0, 0.2),
         0 0 200px rgb(0, 255, 0, 0.4),
