@@ -17,6 +17,9 @@ body {
 }
 
 .cube {
+    position: absolute;
+    top: 0;
+    left: 0;
     position: relative;
     width: 300px;
     height: 300px;
